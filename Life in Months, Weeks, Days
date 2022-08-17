@@ -1,0 +1,13 @@
+print("          WELCOME          \n")
+
+your_age = int(input("What is your age? : "))
+print(" ")
+
+subyears = 90 - your_age
+submonths = subyears * 12
+subwks = subyears * 52
+subdys =  subyears * 365
+
+print(" ")
+
+print(f"You have {subdys} days, {subwks} weeks, {submonths} months ")
